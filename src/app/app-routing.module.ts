@@ -16,7 +16,9 @@ const routes: Routes = [
   /*  Menu 1  */
   { path: '', loadChildren: './pages/menu1/menu1/menu1.module#Menu1PageModule' },
 
+  /* PROBLEME HERE */
   { path: 'menu1/tab3menu', loadChildren: './pages/menu1/menu1/menu1.module#Menu1PageModule' },
+
   /*  Menu 2  */
   { path: '', loadChildren: './pages/menu2/menu2/menu2.module#Menu2PageModule' },
 ];

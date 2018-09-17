@@ -28,7 +28,7 @@ const routes: Routes = [
       { path: 'menu1test', outlet: 'split1', component: Menu1testPage },
 
       { path: 'menu1/tab3menu', redirectTo: '/menu1/(split1:tab3menu)', pathMatch: 'full' },
-      { path: 'tab3menu', outlet: 'split1', component: Tab3menuPage },
+      { path: 'tab3menu', outlet: 'split1', component: Tab3menuPage }
 
     ]
   }

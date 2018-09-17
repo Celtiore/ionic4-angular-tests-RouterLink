@@ -15,13 +15,13 @@ const routes: Routes = [
   {
     path: 'tab3menu', component: Tab3menuPage,
     children: [
-      { path: '', redirectTo: '/tab3menu/(page3:page)', pathMatch: 'full' },
+      { path: '', redirectTo: '/tab3menu/(page3:page3)', pathMatch: 'full' },
 
-      { path: 'tab3menu/page', redirectTo: '/tab3menu/(page3:page)', pathMatch: 'full' },
-      { path: 'tab3menu/empty', redirectTo: '/tab3menu/(empty:empty)', pathMatch: 'full' },
+      { path: 'tab3menu/page3', redirectTo: '/tab3menu/(page3:page3)', pathMatch: 'full' },
+      { path: 'tab3menu/empty3', redirectTo: '/tab3menu/(empty3:empty3)', pathMatch: 'full' },
 
-      { path: 'page', outlet: 'page3', component: Tab3pagePage },
-      { path: 'empty', outlet: 'empty3', component: Tab3emptyPage }
+      { path: 'page3', outlet: 'page3', component: Tab3pagePage },
+      { path: 'empty3', outlet: 'empty3', component: Tab3emptyPage }
     ]
   }
 ];

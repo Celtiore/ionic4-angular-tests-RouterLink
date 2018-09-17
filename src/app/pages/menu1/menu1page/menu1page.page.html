@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title text-center>Menu 1 Page</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-Menu 1 Page Content
+  <ion-item>Menu 1 Page Content</ion-item>
+  <ion-item margin color="primary" routerLink="/home" routerDirection="forward">Home Page</ion-item>
+  <ion-item margin color="primary" routerLink="/single" routerDirection="forward">Single Page</ion-item>
+  <ion-item margin color="primary" routerLink="/tab1menu">Tab 1 Menu-> Default Page</ion-item>
+  <ion-item margin color="primary" routerLink="/tab2menu">Tab 2 Menu -> Default Page</ion-item>
+  <ion-item margin color="danger" routerLink="/menu1">Split Pane 1 -> Default Page</ion-item>
+  <ion-item margin color="primary" routerLink="/menu2">Split Pane 2 -> Default Page</ion-item>
 </ion-content>
