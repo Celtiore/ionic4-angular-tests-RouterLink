@@ -45,6 +45,12 @@ I need help to configure correctly 4*/ and verify my Routes.
 
 thanks you
 
-Stackblitz : 
+You can Try on Stackblitz : 
 
 https://stackblitz.com/github/Celtiore/ionic4-angular-tests-RouterLink
+
+    -   you need to install @angular/compiler
+
+    -   On Split Pane : <ion-menu-button> prsent but not visible ?!
+
+Thanks you
