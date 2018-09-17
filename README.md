@@ -1,4 +1,4 @@
-#   Ionic 4 - Angular - Tests RouerLink
+#   Ionic 4 - Angular - Tests RouterLink
 #
 # Ionic:
 
@@ -44,3 +44,7 @@ origin : ionic blank starter
 I need help to configure correctly 4*/ and verify my Routes.
 
 thanks you
+
+Stackblitz : 
+
+https://stackblitz.com/github/Celtiore/ionic4-angular-tests-RouterLink
