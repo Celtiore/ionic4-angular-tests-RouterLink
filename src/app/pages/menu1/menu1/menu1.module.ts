@@ -10,8 +10,8 @@ import { Menu1pagePage } from '../menu1page/menu1page.page';
 import { Menu1pagePageModule } from '../menu1page/menu1page.module';
 import { Menu1testPage } from '../menu1test/menu1test.page';
 import { Menu1testPageModule } from '../menu1test/menu1test.module';
-import { Tab3menuPage } from '../../tab3/tab3menu/tab3menu.page';
-import { Tab3menuPageModule } from '../../tab3/tab3menu/tab3menu.module';
+import { TabmenuPage } from '../tabX/tabmenu/tabmenu.page';
+import { TabmenuPageModule } from '../tabX/tabmenu/tabmenu.module';
 
 const routes: Routes = [
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: Menu1Page,
 
     children: [
-      { path: '', redirectTo: '/menu1/(split1:menu1page)', pathMatch: 'full' },
+      { path: '', redirectTo: '/menu1/(split1:tabmenu)', pathMatch: 'full' },
 
       { path: 'menu1/menu1page', redirectTo: '/menu1/(split1:menu1page)', pathMatch: 'full' },
       { path: 'menu1page', outlet: 'split1', component: Menu1pagePage },
@@ -27,8 +27,8 @@ const routes: Routes = [
       { path: 'menu1/menu1test', redirectTo: '/menu1/(split1:menu1test)', pathMatch: 'full' },
       { path: 'menu1test', outlet: 'split1', component: Menu1testPage },
 
-      { path: 'menu1/tab3menu', redirectTo: '/menu1/(split1:tab3menu)', pathMatch: 'full' },
-      { path: 'tab3menu', outlet: 'split1', component: Tab3menuPage }
+      { path: 'menu1/tabmenu', redirectTo: '/menu1/(split1:tabmenu)', pathMatch: 'full' },
+      { path: 'tabmenu', outlet: 'split1', component: TabmenuPage }
 
     ]
   }
@@ -42,7 +42,7 @@ const routes: Routes = [
     IonicModule,
     Menu1pagePageModule,
     Menu1testPageModule,
-    Tab3menuPageModule,
+    TabmenuPageModule,
     RouterModule.forChild(routes)
   ],
   declarations: [Menu1Page]

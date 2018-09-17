@@ -51,6 +51,6 @@ https://stackblitz.com/github/Celtiore/ionic4-angular-tests-RouterLink
 
     -   you need to install @angular/compiler
 
-    -   On Split Pane : <ion-menu-button> prsent but not visible ?!
+    -   On Split Pane : <ion-menu-button> present but not visible ?!
 
 Thanks you
