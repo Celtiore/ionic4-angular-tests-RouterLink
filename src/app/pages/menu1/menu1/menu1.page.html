@@ -1,0 +1,30 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Split Pane 1</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item [routerDirection]="'root'" [routerLink]="['menu1/menu1page']">
+              Menu 1 Page
+            </ion-item>
+            <ion-item [routerDirection]="'root'" [routerLink]="['menu1/menu1test']">
+              Menu 1 Test
+            </ion-item>
+            <ion-item [routerDirection]="'root'" [routerLink]="['menu1/tab3menu']">
+              Tab 3 Menu
+            </ion-item>
+            <ion-item [routerDirection]="'root'" routerLink="/home">
+              Home
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet name="split1" main>Menu 1 Content</ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

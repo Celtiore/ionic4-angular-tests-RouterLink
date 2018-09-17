@@ -1,0 +1,9 @@
+<ion-tabs>
+    <ion-tab label="Test 3" [routerLink]="[{ outlets: { split1: ['/menu1/tab3menu/empty'] } }]">
+      <ion-router-outlet name="page3"></ion-router-outlet>
+    </ion-tab>
+    <ion-tab label="Empty 3" routerLink='/menu1/tab3menu/empty'>
+      <ion-router-outlet name="empty3"></ion-router-outlet>
+    </ion-tab>
+  </ion-tabs>
+  

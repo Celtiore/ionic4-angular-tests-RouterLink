@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Tab 1 Test</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list inset>
+    <ion-item>Tab 1 Test Content</ion-item>
+    <ion-item margin color="primary" routerLink="/single" routerDirection="forward">Single Page</ion-item>
+    <ion-item margin color="primary" routerLink="/tab1menu">Tab 1 Menu</ion-item>
+    <ion-item margin color="primary" routerLink="/tab2menu" routerDirection="forward">Tab 2 Menu</ion-item>
+    <ion-item margin color="primary" routerLink="/menu1" routerDirection="forward">Split Pane 1</ion-item>
+    <ion-item margin color="primary" routerLink="/menu2" routerDirection="forward">Split Pane 2</ion-item>
+  </ion-list>
+</ion-content>
