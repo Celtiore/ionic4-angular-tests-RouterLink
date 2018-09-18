@@ -33,8 +33,9 @@ origin : ionic blank starter
     -   Inside each <ion-split-pane> use 2 differents <ion-tabs>
     -   Need to use components in <ion-tab>
     -   if someone have suggestions or changes, you're welcome
-    
-##
+
+# Problemes
+    - wrong display <ion-content> in Tabs components 'Users, Accounts, etc'
 
 
 You can Try on Stackblitz : 
