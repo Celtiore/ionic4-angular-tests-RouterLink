@@ -1,0 +1,31 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu Administration</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item [routerLink]="['splitAdministation/admin1']">
+              Page 1
+            </ion-item>
+            <ion-item [routerLink]="['splitAdministation/admin2']">
+              Page 2
+            </ion-item>
+            <ion-item [routerLink]="['splitAdministation/tabAdministration']">
+              Tab Test
+            </ion-item>
+            <ion-item routerLink="/home">
+              Home
+            </ion-item>
+          </ion-menu-toggle>
+          
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet name="administration" main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
